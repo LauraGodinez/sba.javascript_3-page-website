@@ -1,5 +1,106 @@
 # AD - SBA - HTML/CSS/JavaScript
 
+-This website is a simple 3 paged HTML website that was built using the following:
+
+homepage.html: (HOME)
+
+- Used Bootstrap to create carousel. 
+   - Carousel has three image slides with text. 
+   - Slide 3 of Carousel text is within a table.
+- Used upsplash's free images for background. 
+- Used Google fonts for webpage font. 
+- Used Bootstap to create a navigation bar to link to other webpages. When size is minimized nav bar becomes a drop down.
+   - List used for nav bar.
+- grid system used.
+- HTML tags used.
+- Links used.
+- CSS selectors Used.
+
+
+profile.html (ABOUT ME)
+
+- Used bootstap for navbar
+- Used google fonts for webpage font.
+- Used upsplash's free images for background
+- Used bootstraps simple form template to create bestfriend% form. 
+- internal script used at footer for form function use.
+- grid system used. 
+- HTML tags used.
+- Internal Script Event at footer function.
+- Random number generator used for % of bestfriend.
+- Links Used.
+- CSS selectors used.
+
+contactMe.html (CONTACT ME )
+
+- Used bootstap for navbar
+- Used google fonts for webpage font.
+- Used upsplash's free images for background
+- Used bootstraps simple form template to contact form. 
+- internal script used at footer for form function use.
+- external script used.
+- grid system used. 
+- HTML tags used.
+- Internal Script Event at footer function.
+- Links Used.
+- CSS selectors used .
+
+
+
+REQUIREMENTS NEEDED:
+- [x] 3 html pages (3 pages used)
+- [x] Grid system (on all htmls)
+- [x] Html table(home.html slide 3)
+- [x] 1 form use (aboutme.html )
+- [ ] 2nd form use  (contactme.html)
+- [x] Drop down menu (nav bar when screen made smaller.)
+- [x] Web fonts (google fonts used )
+- [x] Use different types of content in forms ex txt img vid, gif (txt and img used)
+- [x] Regex validation (used for email on contactMe)
+
+
+CSS
+- [x] Inline styling (ON ALL 3 HTML PAGES)
+- [x] Internal styling 
+- [x] External styling 
+- [x] Css selector 1
+- [x] Css selector 2
+- [x] Css selector 3
+- [x] Css selector 4
+- [x] Css selector 5 (Can be found on css page used multiples ones)
+
+JavaScript
+
+- [x] External script ( .js file)
+- [x] Variables (.js file  and at footer function on contactme.html
+- [x] If statement (footer function at contactme.html)
+- [x] Loop(if and for loops used)
+- [x] 1 form of collections ()
+- [ ] Function/callback ()
+- [x] Events 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Description

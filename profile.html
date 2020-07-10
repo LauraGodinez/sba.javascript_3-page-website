@@ -3,6 +3,7 @@
 
 <head>
     <!-- header begins here -->
+    <!-- header begins here -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -10,6 +11,7 @@
     <link href="./css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
         crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -22,48 +24,107 @@
 </head>
 
 <body>
+    </head>
 
-    <!-- nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
-            aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-        <a class="navbar-brand" href="#">Laura Godinez</a>
+    <body id="bg-id">
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./homepage.html">Home </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./profile.html">About Me<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Projects</a>
-                </li>
-            </ul>
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+            <a class="navbar-brand" href="#" style="font-family: 'Amatic SC';font-size: 25px;">Laura Godinez</a>
 
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./homepage.html">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./profile.html">About Me <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactMe.html">Contact Me  </a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <!-- end nav bar -->
+
+
+        <div class="container" style="margin-top:25px; background-color: rgba(255, 255, 255, 0.52)">
+            <div class="row justify-content-md-center">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12" style="text-align:center">
+                    <h1 style="font-size:90px">About Me</h1>
+                    <p>
+                        Hello. Welcome to my About Me page. My name is <b>Laura Godinez</b>. I am located in the Triad Area
+                        of North Carolina. When im not on the computer coding i love spending my time with my friends and
+                        family outside or by the water.
+                    </p>
+
+
+
+                </div>
+            </div>
         </div>
-    </nav>
-    <!-- end nav bar -->
+
+        <div class="container" style="margin-top:25px; background-color: rgba(255, 255, 255, 0.52)">
+            <div class="row justify-content-md-center">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12" style="text-align:center">
+                    <h1>Bestfriend %</h1>
+                    <form onsubmit="calculatePercent(event); e.preventDefault();">
+                        <div class="form-group row">
+                            <label for="dinosaur">Favorite Dinosaur:</label>
+                            <select class="form-control" name="dinasour" id="dinosaur">
+                                <option value="veloceraptor">Veloceraptor</option>
+                                <option value="t-rex">T-Rex</option>
+                                <option value="shark">Shark</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group row">
+                            <label for="diet">Diet:</label>
+                            <select class="form-control" name="diet" id="diet">
+                                    <option value="omnivore">Omnivore</option>
+                                    <option value="vegeterian">Vegeterian</option>
+                                    <option value="vegan">Vegan</option>
+                                </select>
+                        </div>
+                        <div class="form-group row">
+                            <label for="language">Programming Language:</label>
+                            <select class="form-control" name="language" id="language">
+                                        <option value="csharp">C#</option>
+                                        <option value="java">Java</option>
+                                        <option value="python">Python</option>
+                                    </select>
+                        </div>
+
+                        <div class="form-group row d-flex justify-content-center">
+                            <h1 id="best-friend-percent"></h1>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary btn-md">Calculate</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <script type="text/javascript">
+                function calculatePercent(event) {
+
+                    document.getElementById("best-friend-percent").innerHTML = Math.floor((Math.random() * 100) + 1) + "%";
+
+                    event.preventDefault();
+                }
+            </script>
+        </footer>
 
 
-    <div class="container-fluid" id="bg">
-
-
-    </div>
-
-
-
-
-    <footer>
-        <!--    
-    <script type="text/javascript" src="./js/footer-functions.js"></script> -->
-    </footer>
-
-
-</body>
+    </body>
 
 
 </html>

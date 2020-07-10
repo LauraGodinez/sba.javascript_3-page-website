@@ -21,6 +21,51 @@
   opacity: 0.6;
 }
 
-#bg {
-  background: url("./img/img5.jpg");
+#bg-id {
+  background-image: url("../img/img5.jpg");
+  justify-content: center;
+  border: 3px;
+  font-family: "Amatic SC";
+  font-size: 25px;
+}
+
+th {
+  font-size: 90px;
+}
+
+tr {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.form-group {
+  margin: 10px;
+  padding: 10px;
+  border: 5px;
+}
+button {
+  align-self: right;
+}
+
+#contactMe-id {
+  background: url(../img/img6.jpg);
+}
+.col-cl {
+  color: white;
+}
+.form-cl {
+  border: 01px solid rgba(255, 255, 255, 0.86);
+  padding: 50px 60px;
+  margin-top: 20vh;
+  -webkit-box-shadow: -1px 4px 26px 11px rgba(94, 94, 94, 1);
+  -moz-box-shadow: -1px 4px 26px 11px rgba(94, 94, 94, 1);
+  box-shadow: -1px 4px 26px 11px rgba(94, 94, 94, 1);
+}
+
+.bg-id2 {
+  font-family: "Amatic SC";
+  font-size: 25px;
 }
