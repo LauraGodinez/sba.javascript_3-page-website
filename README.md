@@ -4,7 +4,7 @@ https://lauragodinez.github.io/sba.javascript_3-page-website/
 
 -This website is a simple 3 paged HTML website that was built using the following:
 
-homepage.html: (HOME)
+index.html: (HOME)
 
 - Used Bootstrap to create carousel. 
    - Carousel has three image slides with text. 
